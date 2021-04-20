@@ -1,0 +1,25 @@
+{
+  "name": "fresh-vally-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "nodemon": "^2.0.7",
+    "save": "^2.4.0",
+    "save-dev": "0.0.1-security"
+  }
+}
